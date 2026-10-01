@@ -1,4 +1,5 @@
 import type { EventItem } from './types';
+import { archiveImages } from './archive-images';
 
 export const events: EventItem[] = [
   {
@@ -6,6 +7,7 @@ export const events: EventItem[] = [
     title: 'Cách mạng Tháng Hai',
     date: '23–27/2/1917 (Julius) · 8–12/3/1917 (Gregory)',
     summary: 'Bãi công và biểu tình tại Petrograd, cùng binh biến của quân đồn trú, làm sụp đổ chế độ quân chủ Nga.',
+    image: archiveImages.februaryPatrol,
     content: [
       'Ngày 23/2 (Julius), nhân Ngày Quốc tế Phụ nữ, nhiều công nhân nữ ở Petrograd xuống đường phản đối tình trạng thiếu bánh mì. Trong những ngày sau, bãi công lan rộng và biểu tình ngày càng đông.',
       'Ngày 27/2 (Julius), nhiều đơn vị quân đồn trú đứng về phía người biểu tình. Cùng ngày, Xô viết đại biểu công nhân và binh sĩ Petrograd được thành lập, còn Duma Quốc gia lập một Ủy ban lâm thời.',
@@ -20,6 +22,7 @@ export const events: EventItem[] = [
     title: 'Lenin trở về Nga',
     date: '3/4/1917 (Julius) · 16/4/1917 (Gregory)',
     summary: 'Lenin từ Thụy Sĩ trở lại Petrograd, đến nhà ga Phần Lan sau chuyến đi qua lãnh thổ Đức.',
+    image: archiveImages.lenin,
     content: [
       'Sau Cách mạng Tháng Hai, Lenin đang sống lưu vong ở Thụy Sĩ. Ông cùng một nhóm người lưu vong đi qua lãnh thổ Đức bằng tàu hỏa, rồi qua Thụy Điển và Phần Lan để về Nga.',
       'Việc chính quyền Đức cho phép chuyến đi này về sau bị đối thủ chính trị của Bolshevik sử dụng để công kích họ; các nhà sử học nhìn nhận đây là một yếu tố trong các cuộc tranh luận chính trị năm 1917.',
@@ -34,6 +37,7 @@ export const events: EventItem[] = [
     title: 'Luận cương Tháng Tư',
     date: '4/4/1917 (Julius) trình bày · 7/4/1917 (Julius) đăng báo Pravda',
     summary: 'Lenin đề xuất Bolshevik không ủng hộ Chính phủ lâm thời và hướng tới việc chuyển quyền lực cho các Xô viết.',
+    image: archiveImages.lenin,
     content: [
       'Ngày 4/4 (Julius), Lenin trình bày các luận điểm tại các cuộc họp ở Petrograd; văn bản được đăng trên báo Pravda ngày 7/4 (Julius) với tiêu đề “Về các nhiệm vụ của giai cấp vô sản trong cuộc cách mạng hiện nay”.',
       'Nội dung chính gồm: không ủng hộ Chính phủ lâm thời, coi cuộc chiến tranh vẫn mang tính đế quốc, và hướng tới việc trao chính quyền cho các Xô viết. Khẩu hiệu “Hòa bình, ruộng đất, bánh mì” gắn với giai đoạn này.',
@@ -48,6 +52,7 @@ export const events: EventItem[] = [
     title: 'Các cuộc biểu tình tháng Bảy',
     date: '3–7/7/1917 (Julius) · 16–20/7/1917 (Gregory)',
     summary: 'Biểu tình vũ trang ở Petrograd bị đàn áp; Bolshevik bị truy bắt, Kerensky trở thành người đứng đầu chính phủ.',
+    image: archiveImages.julyDemonstration,
     content: [
       'Đầu tháng 7 (Julius), sau thất bại của cuộc tấn công quân sự mùa hè và những bất đồng trong chính phủ, binh sĩ và công nhân Petrograd tổ chức biểu tình lớn đòi chuyển quyền lực cho Xô viết.',
       'Các cuộc biểu tình bị dập tắt bởi các lực lượng trung thành với chính phủ. Chính phủ ra lệnh truy bắt nhiều lãnh đạo Bolshevik; Lenin rời Petrograd sang Phần Lan lánh mặt.',
@@ -62,6 +67,7 @@ export const events: EventItem[] = [
     title: 'Sự kiện Kornilov',
     date: 'cuối tháng 8 – đầu tháng 9/1917 (Julius)',
     summary: 'Nỗ lực của Tổng tư lệnh Kornilov đưa quân về Petrograd thất bại, làm suy yếu Chính phủ lâm thời và củng cố ảnh hưởng của Bolshevik.',
+    image: archiveImages.kornilov,
     content: [
       'Tướng Lavr Kornilov, Tổng tư lệnh quân đội, và Thủ tướng Kerensky có những bất đồng và hiểu lầm về việc tăng cường trật tự tại Petrograd. Cuối tháng 8 (Julius), Kornilov điều quân hướng về thủ đô.',
       'Kerensky coi đó là hành động chống chính phủ và kêu gọi các lực lượng cánh tả, kể cả Bolshevik, tham gia bảo vệ thủ đô. Các đơn vị của Kornilov không tiến được vào Petrograd và sự kiện tan rã trong vài ngày.',
@@ -76,6 +82,7 @@ export const events: EventItem[] = [
     title: 'Chuẩn bị khởi nghĩa',
     date: 'tháng 9 – 24/10/1917 (Julius)',
     summary: 'Bolshevik giành đa số trong các Xô viết lớn; Ban Chấp hành Trung ương thông qua chủ trương khởi nghĩa vũ trang; Ủy ban Quân sự Cách mạng được thành lập.',
+    image: archiveImages.trotsky,
     content: [
       'Từ tháng 9 (Julius), Bolshevik giành được nhiều ghế hơn trong các Xô viết ở Petrograd và Moskva. Trotsky được bầu làm Chủ tịch Xô viết Petrograd vào cuối tháng 9 (Julius).',
       'Ngày 10/10 (Julius), Ban Chấp hành Trung ương Đảng Bolshevik biểu quyết ủng hộ khởi nghĩa vũ trang với tỷ lệ 10 phiếu thuận, 2 phiếu chống; Kamenev và Zinoviev là hai người phản đối.',
@@ -90,6 +97,7 @@ export const events: EventItem[] = [
     title: 'Khởi nghĩa Tháng Mười',
     date: '24–25/10/1917 (Julius) · 6–7/11/1917 (Gregory)',
     summary: 'Lực lượng do Ủy ban Quân sự Cách mạng chỉ huy chiếm các vị trí then chốt của Petrograd và tuyên bố Chính phủ lâm thời bị lật đổ.',
+    image: archiveImages.winterPalace,
     content: [
       'Rạng sáng 24/10 (Julius), chính phủ Kerensky tìm cách đóng cửa các cơ quan báo chí của Bolshevik. Ủy ban Quân sự Cách mạng phản ứng bằng việc huy động binh sĩ, Cận vệ đỏ và thủy thủ.',
       'Trong ngày 24 và 25/10 (Julius), các lực lượng này kiểm soát dần các vị trí như cầu, nhà ga, bưu điện, sở điện tín và Ngân hàng Nhà nước. Sáng 25/10 (Julius), Ủy ban Quân sự Cách mạng công bố Chính phủ lâm thời đã bị lật đổ.',
@@ -105,6 +113,7 @@ export const events: EventItem[] = [
     title: 'Chiếm Cung điện Mùa Đông',
     date: 'đêm 25–26/10/1917 (Julius) · 7–8/11/1917 (Gregory)',
     summary: 'Cung điện Mùa Đông, nơi các bộ trưởng Chính phủ lâm thời họp, bị lực lượng của Ủy ban Quân sự Cách mạng chiếm; các bộ trưởng bị bắt.',
+    image: archiveImages.winterPalace,
     content: [
       'Kerensky đã rời Petrograd trong sáng 25/10 (Julius) để tìm quân hỗ trợ. Các bộ trưởng còn lại tập trung tại Cung điện Mùa Đông, được bảo vệ bởi lực lượng khá nhỏ.',
       'Tối 25/10 (Julius), một phát súng từ tuần dương hạm Aurora thường được nhắc đến như tín hiệu; đến rạng sáng 26/10 (Julius), lực lượng của Ủy ban Quân sự Cách mạng tiến vào cung điện và bắt các bộ trưởng.',
@@ -119,6 +128,7 @@ export const events: EventItem[] = [
     title: 'Thành lập chính quyền Xô viết',
     date: '25–26/10/1917 (Julius) · 7–8/11/1917 (Gregory)',
     summary: 'Đại hội Xô viết toàn Nga lần II thông qua Sắc lệnh về Hòa bình, Sắc lệnh về Ruộng đất và lập Hội đồng Bộ trưởng Dân ủy do Lenin đứng đầu.',
+    image: archiveImages.lenin,
     content: [
       'Đại hội Xô viết toàn Nga lần II khai mạc tối 25/10 (Julius). Đại biểu thuộc phái Menshevik và một bộ phận Xã hội Cách mạng rời đại hội để phản đối việc chiếm quyền.',
       'Ngày 26/10 (Julius), đại hội thông qua Sắc lệnh về Hòa bình, đề nghị các nước tham chiến thương lượng hòa bình không thôn tính, và Sắc lệnh về Ruộng đất, xóa bỏ quyền sở hữu tư nhân đối với ruộng đất của địa chủ.',

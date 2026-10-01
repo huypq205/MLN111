@@ -1,4 +1,5 @@
 import type { Media } from './types';
+import { archiveImages } from './archive-images';
 
 /**
  * Ảnh chưa được đính kèm: không có ảnh nào được tải hay bịa đặt. Khi có ảnh, đặt tệp vào
@@ -16,11 +17,11 @@ export const media: Media[] = [
   { id: 'decree-on-land', title: 'Sắc lệnh về Ruộng đất', type: 'document', date: '26/10/1917 (Julius) · 8/11/1917 (Gregory)',
     description: 'Xóa bỏ quyền sở hữu tư nhân đối với ruộng đất của địa chủ.', historicalContext: 'Gắn với yêu cầu ruộng đất của nông dân trong suốt năm 1917.', source: 'carr' },
   { id: 'winter-palace-photo', title: 'Cung điện Mùa Đông, Petrograd', type: 'photo', date: '1917',
-    description: 'Ảnh tư liệu về Cung điện Mùa Đông (cần chọn ảnh cụ thể và ghi rõ ngày chụp).', historicalContext: 'Nơi các bộ trưởng Chính phủ lâm thời họp vào đêm 25–26/10 (Julius).', source: 'brit-october' },
+    description: 'Ảnh chụp Cung điện Mùa Đông sau khi bị chiếm, sáng 26/10 (Julius).', historicalContext: 'Nơi các bộ trưởng Chính phủ lâm thời họp vào đêm 25–26/10 (Julius).', image: archiveImages.winterPalace, source: 'brit-october' },
   { id: 'finland-station-photo', title: 'Nhà ga Phần Lan, Petrograd', type: 'photo', date: '1917',
-    description: 'Ảnh tư liệu về nhà ga nơi Lenin đến ngày 3/4 (Julius) (cần chọn ảnh cụ thể).', historicalContext: 'Điểm đến của Lenin sau chuyến đi từ Thụy Sĩ.', source: 'brit-lenin' },
+    description: 'Mặt tiền tòa nhà cũ của ga Phần Lan tại Sankt-Peterburg.', historicalContext: 'Ga Phần Lan là nơi Lenin đến ngày 3/4 (Julius) 1917 sau khi trở về từ Thụy Sĩ. Ảnh cho thấy tòa nhà lịch sử của nhà ga, không khẳng định đây là ảnh chụp đúng ngày Lenin trở về.', image: archiveImages.finlandStation, source: 'brit-lenin' },
   { id: 'petrograd-map', title: 'Bản đồ các vị trí then chốt tại Petrograd', type: 'map', date: '24–25/10/1917 (Julius)',
     description: 'Bản đồ minh họa các vị trí bị kiểm soát trong khởi nghĩa (cần chọn hoặc dựng bản đồ có nguồn).', historicalContext: 'Giúp hình dung sự phân bố các cầu, nhà ga, bưu điện và Cung điện Mùa Đông.', source: 'rabinowitch' },
   { id: 'civil-war-poster', title: 'Áp phích thời Nội chiến Nga', type: 'poster', date: '1918–1922',
-    description: 'Vị trí dành cho một áp phích đã được xác minh về ngày tháng và nơi lưu giữ.', historicalContext: 'Áp phích là công cụ tuyên truyền của cả các bên trong Nội chiến; cần dùng với chú thích rõ nguồn.', source: 'brit-civil-war' }
+    description: 'Áp phích Liên Xô năm 1919 đối chiếu quân đội Nga hoàng với Hồng quân.', historicalContext: 'Tác phẩm của D. Moor kêu gọi ủng hộ Hồng quân trong Nội chiến Nga.', image: archiveImages.redArmyPoster, source: 'brit-civil-war' }
 ];

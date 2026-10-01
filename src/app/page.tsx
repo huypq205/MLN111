@@ -9,6 +9,7 @@ import { TimelineStrip } from '@/components/TimelineStrip';
 import { causeSections } from '@/data/sections';
 import { figures } from '@/data/figures';
 import { timeline } from '@/data/timeline';
+import { archiveImages } from '@/data/archive-images';
 
 const wrap = 'mx-auto max-w-7xl px-4 sm:px-6';
 const cta = 'label inline-block px-6 py-3.5 transition-colors';
@@ -98,7 +99,7 @@ export default function HomePage() {
             <p className="mt-4 max-w-xl text-lg text-cream/90">Lực lượng do Ủy ban Quân sự Cách mạng chỉ huy kiểm soát các vị trí then chốt của Petrograd. Chính phủ lâm thời bị tuyên bố lật đổ; Đại hội Xô viết toàn Nga lần II lập chính phủ mới.</p>
             <Link href="/events/october-uprising" className={`${cta} mt-8 bg-cream text-wine hover:bg-gold`}>Đọc về khởi nghĩa</Link>
           </div>
-          <div className="lg:col-span-5"><ArchiveImage label="Ảnh lưu trữ: Petrograd, tháng 10/1917" ratio="aspect-[4/3]" /></div>
+          <div className="lg:col-span-5"><ArchiveImage image={archiveImages.winterPalace} label="Cung điện Mùa Đông sau khi bị chiếm, sáng 26/10/1917" ratio="aspect-[4/3]" /></div>
         </div>
       </section>
 

@@ -1,4 +1,4 @@
-export type ImageRef = { src: string; alt: string; credit: string };
+export type ImageRef = { src: string; alt: string; credit: string; url?: string };
 export type ContentKind = 'fact' | 'interpretation' | 'debate' | 'framework';
 
 export type Source = {

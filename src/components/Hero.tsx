@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { ArchiveImage } from './ArchiveImage';
+import { archiveImages } from '@/data/archive-images';
 
 export function Hero() {
   return (
@@ -17,7 +18,7 @@ export function Hero() {
             <Link href="/vietnam" className="label border border-cream/70 px-6 py-3.5 transition-colors hover:border-gold hover:text-gold">Tìm hiểu mối liên hệ với Việt Nam</Link>
           </div>
         </div>
-        <div className="lg:col-span-5"><ArchiveImage label="Ảnh lưu trữ: Petrograd, 1917 (chọn ảnh có ghi công)" ratio="aspect-[4/5]" priority /></div>
+        <div className="lg:col-span-5"><ArchiveImage image={archiveImages.julyDemonstration} label="Đụng độ trên đại lộ Nevsky, Petrograd, tháng 7/1917" ratio="aspect-[4/5]" priority /></div>
       </div>
     </section>
   );

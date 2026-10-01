@@ -9,7 +9,9 @@ export function ArchiveImage({ image, label, ratio = 'aspect-[4/3]', priority = 
         <div className={`relative ${ratio} w-full overflow-hidden border border-ink/60 bg-paper-2`}>
           <Image src={image.src} alt={image.alt} fill sizes="(min-width:1024px) 50vw, 100vw" className="object-cover sepia-[.25]" priority={priority} />
         </div>
-        <figcaption className="mt-2 font-sans text-xs text-muted">{image.credit}</figcaption>
+        <figcaption className="mt-2 font-sans text-xs text-muted">
+          {image.url ? <a href={image.url} target="_blank" rel="noreferrer" className="underline decoration-rule underline-offset-2 hover:text-burgundy">{image.credit}</a> : image.credit}
+        </figcaption>
       </figure>
     );
   }
