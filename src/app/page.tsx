@@ -31,7 +31,7 @@ export default function HomePage() {
             <ul className="mt-6 grid gap-2 font-sans text-sm sm:grid-cols-2">
               {['Bối cảnh nước Nga', 'Chiến tranh', 'Khủng hoảng xã hội', 'Tình hình chính trị', 'Các lực lượng cách mạng'].map((t) => <li key={t} className="border-t border-ink/60 pt-2">{t}</li>)}
             </ul>
-            <Link href="/context" className={`${cta} mt-8 bg-ink text-black hover:bg-burgundy`}>Khám phá bối cảnh</Link>
+            <Link href="/context" className={`${cta} mt-8 bg-ink text-white hover:bg-burgundy`}>Khám phá bối cảnh</Link>
           </div>
         </Reveal>
       </section>

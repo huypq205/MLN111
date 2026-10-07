@@ -90,5 +90,40 @@ export const archiveImages = {
     alt: 'Mặt tiền tòa nhà cũ của ga Phần Lan tại Sankt-Peterburg',
     credit: 'Александров · Wikimedia Commons · CC BY-SA 3.0',
     url: 'https://commons.wikimedia.org/wiki/File:St._Petersburg._A_fragment_of_the_facade_of_the_old_building_the_Finland_Station.JPG'
+  },
+  y_nghia_1: {
+    src: '/images/y_nghia_1.jpg',
+    alt: 'Chính quyền về tay các Xôiết',
+    credit: 'Александров · Wikimedia Commons · CC BY-SA 3.0',
+    url: 'https://commons.wikimedia.org/wiki/File:St._Petersburg._A_fragment_of_the_facade_of_the_old_building_the_Finland_Station.JPG'
+  },
+  y_nghia_2: {
+    src: '/images/y_nghia_2.jpg',
+    alt: 'Chính quyền về tay các Xôiết',
+    credit: 'Александров · Wikimedia Commons · CC BY-SA 3.0',
+    url: 'https://commons.wikimedia.org/wiki/File:St._Petersburg._A_fragment_of_the_facade_of_the_old_building_the_Finland_Station.JPG'
+  }, y_nghia_3: {
+    src: '/images/y_nghia_3.jpg',
+    alt: 'Chính quyền về tay các Xôiết',
+    credit: 'Александров · Wikimedia Commons · CC BY-SA 3.0',
+    url: 'https://commons.wikimedia.org/wiki/File:St._Petersburg._A_fragment_of_the_facade_of_the_old_building_the_Finland_Station.JPG'
+  },
+  y_nghia_4: {
+    src: '/images/y_nghia_4.jpg',
+    alt: 'Chính quyền về tay các Xôiết',
+    credit: 'Александров · Wikimedia Commons · CC BY-SA 3.0',
+    url: 'https://commons.wikimedia.org/wiki/File:St._Petersburg._A_fragment_of_the_facade_of_the_old_building_the_Finland_Station.JPG'
+  },
+  nn_1: {
+    src: '/images/nn1.jpg',
+    alt: 'Chính quyền về tay các Xôiết',
+    credit: 'Александров · Wikimedia Commons · CC BY-SA 3.0',
+    url: 'https://commons.wikimedia.org/wiki/File:St._Petersburg._A_fragment_of_the_facade_of_the_old_building_the_Finland_Station.JPG'
+  },
+  nn_2: {
+    src: '/images/nn1.jpg',
+    alt: 'Chính quyền về tay các Xôiết',
+    credit: 'Александров · Wikimedia Commons · CC BY-SA 3.0',
+    url: 'https://commons.wikimedia.org/wiki/File:St._Petersburg._A_fragment_of_the_facade_of_the_old_building_the_Finland_Station.JPG'
   }
 } satisfies Record<string, ImageRef>;

@@ -6,6 +6,6 @@ export const navItems = [
   { href: '/figures', label: 'Nhân vật' },
   { href: '/significance', label: 'Kết quả & Ý nghĩa' },
   { href: '/vietnam', label: 'Tháng Mười & Việt Nam' },
-  { href: '/gallery', label: 'Tư liệu' },
-  { href: '/sources', label: 'Nguồn' }
+  // { href: '/gallery', label: 'Tư liệu' },
+  // { href: '/sources', label: 'Nguồn' }
 ];
