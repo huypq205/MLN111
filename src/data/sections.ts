@@ -4,58 +4,58 @@ import { archiveImages } from './archive-images';
 export const contextSections: Section[] = [
   {
     id: 'tsarist-regime', title: 'Chế độ Nga hoàng', short: 'Quân chủ chuyên chế với Duma có quyền hạn giới hạn.',
-    content: ['Nicholas II lên ngôi năm 1894 trong một đế quốc rộng lớn và đa dân tộc. Trước năm 1905, Nga không có cơ quan đại diện toàn quốc.', 'Sau Cách mạng 1905, Duma Quốc gia được lập, song hoàng đế vẫn giữ nhiều quyền lực và có thể giải tán Duma.'], image: archiveImages.nicholas, sources: ['brit-russian-rev', 'figes']
+    content: ['Nicholas II lên ngôi năm 1894 trong một đế quốc rộng lớn và đa dân tộc. Trước năm 1905, Nga không có cơ quan đại diện toàn quốc.', 'Sau Cách mạng 1905, Duma Quốc gia được lập, song hoàng đế vẫn giữ nhiều quyền lực và có thể giải tán Duma.'], sources: ['brit-russian-rev', 'figes']
   },
   {
     id: 'economy', title: 'Tình hình kinh tế', short: 'Công nghiệp hóa nhanh ở một số trung tâm, nông nghiệp vẫn chiếm ưu thế.',
-    content: ['Từ cuối thế kỷ XIX, Nga phát triển đường sắt và công nghiệp nặng, phần lớn tập trung ở vài thành phố như Sankt-Peterburg và Moskva.', 'Phần đông dân cư vẫn sống ở nông thôn và phụ thuộc vào nông nghiệp.'], image: archiveImages.moscowFactory, sources: ['figes', 'fitzpatrick']
+    content: ['Từ cuối thế kỷ XIX, Nga phát triển đường sắt và công nghiệp nặng, phần lớn tập trung ở vài thành phố như Sankt-Peterburg và Moskva.', 'Phần đông dân cư vẫn sống ở nông thôn và phụ thuộc vào nông nghiệp.'], sources: ['figes', 'fitzpatrick']
   },
   {
     id: 'society', title: 'Tình hình xã hội', short: 'Nông dân, địa chủ, công nhân đô thị, trí thức và nhiều dân tộc trong một đế quốc.',
-    content: ['Xã hội Nga gồm quý tộc và địa chủ, nông dân, một tầng lớp công nhân đô thị nhỏ nhưng tập trung, giới trí thức và nhiều dân tộc phi Nga.', 'Cuộc cải cách giải phóng nông nô năm 1861 không giải quyết trọn vẹn vấn đề ruộng đất.'], image: archiveImages.moscowFactory, sources: ['figes', 'fitzpatrick']
+    content: ['Xã hội Nga gồm quý tộc và địa chủ, nông dân, một tầng lớp công nhân đô thị nhỏ nhưng tập trung, giới trí thức và nhiều dân tộc phi Nga.', 'Cuộc cải cách giải phóng nông nô năm 1861 không giải quyết trọn vẹn vấn đề ruộng đất.'], sources: ['figes', 'fitzpatrick']
   },
   {
     id: 'class-conflict', title: 'Mâu thuẫn giai cấp', short: 'Yêu cầu ruộng đất, điều kiện lao động và đại diện chính trị.',
-    content: ['Nông dân đòi ruộng đất; công nhân đòi cải thiện điều kiện làm việc và quyền tổ chức; các tầng lớp khác đòi đại diện chính trị.', 'Các sử gia khác nhau về mức độ các mâu thuẫn này tự thân dẫn đến khủng hoảng, so với vai trò của chiến tranh.'], image: archiveImages.februaryPatrol, kind: 'debate', sources: ['fitzpatrick', 'pipes']
+    content: ['Nông dân đòi ruộng đất; công nhân đòi cải thiện điều kiện làm việc và quyền tổ chức; các tầng lớp khác đòi đại diện chính trị.', 'Các sử gia khác nhau về mức độ các mâu thuẫn này tự thân dẫn đến khủng hoảng, so với vai trò của chiến tranh.'], kind: 'debate', sources: ['fitzpatrick', 'pipes']
   },
   {
     id: 'politics', title: 'Tình hình chính trị', short: 'Nhiều đảng phái, trong đó có Bolshevik, Menshevik, Xã hội Cách mạng và Lập hiến Dân chủ.',
-    content: ['Đảng Công nhân Dân chủ Xã hội Nga chia thành hai phái Bolshevik và Menshevik từ năm 1903. Bên cạnh đó có Đảng Xã hội Cách mạng, chủ yếu dựa vào nông dân, và Đảng Lập hiến Dân chủ (Kadet), theo hướng tự do.'], image: archiveImages.lenin, sources: ['brit-russian-rev', 'wade']
+    content: ['Đảng Công nhân Dân chủ Xã hội Nga chia thành hai phái Bolshevik và Menshevik từ năm 1903. Bên cạnh đó có Đảng Xã hội Cách mạng, chủ yếu dựa vào nông dân, và Đảng Lập hiến Dân chủ (Kadet), theo hướng tự do.'], sources: ['brit-russian-rev', 'wade']
   },
   {
     id: 'wwi', title: 'Chiến tranh thế giới thứ nhất', short: 'Nga tham chiến từ 1914, chịu tổn thất và thiếu thốn.',
-    content: ['Chiến tranh kéo dài tạo áp lực lớn lên quân đội, vận tải và cung ứng lương thực cho các thành phố.', 'Việc Nicholas II trực tiếp chỉ huy quân đội từ năm 1915 gắn kết cục chiến sự với uy tín của ông.'], image: archiveImages.russianSoldiers, sources: ['brit-russian-rev', 'figes']
+    content: ['Chiến tranh kéo dài tạo áp lực lớn lên quân đội, vận tải và cung ứng lương thực cho các thành phố.', 'Việc Nicholas II trực tiếp chỉ huy quân đội từ năm 1915 gắn kết cục chiến sự với uy tín của ông.'], sources: ['brit-russian-rev', 'figes']
   },
   {
     id: 'crisis', title: 'Khủng hoảng kinh tế và xã hội', short: 'Khó khăn cung ứng ở đô thị và mất lòng tin vào chính quyền.',
-    content: ['Trong những năm 1915–1916, tình trạng khó khăn về cung ứng lương thực và nhiên liệu, cùng bất bình với chính quyền, tăng ở các thành phố lớn. Đây là bối cảnh trực tiếp của các cuộc biểu tình đầu năm 1917.'], image: archiveImages.februaryPatrol, sources: ['figes', 'wade']
+    content: ['Trong những năm 1915–1916, tình trạng khó khăn về cung ứng lương thực và nhiên liệu, cùng bất bình với chính quyền, tăng ở các thành phố lớn. Đây là bối cảnh trực tiếp của các cuộc biểu tình đầu năm 1917.'], sources: ['figes', 'wade']
   }
 ];
 
 export const causeSections: Section[] = [
   {
     id: 'political-causes', title: 'Nguyên nhân chính trị', short: 'Thiếu cơ chế đại diện đủ rộng và các thiết chế bị hạn chế.',
-    content: ['Duma bị hạn chế quyền hạn, nhiều nhóm xã hội cảm thấy không có tiếng nói chính trị. Sau tháng 2/1917, Chính phủ lâm thời lại phải chia sẻ quyền lực với Xô viết, khiến thẩm quyền chính trị bị phân tán.'], image: archiveImages.nn_1, sources: ['brit-russian-rev', 'wade']
+    content: ['Duma bị hạn chế quyền hạn, nhiều nhóm xã hội cảm thấy không có tiếng nói chính trị. Sau tháng 2/1917, Chính phủ lâm thời lại phải chia sẻ quyền lực với Xô viết, khiến thẩm quyền chính trị bị phân tán.'], sources: ['brit-russian-rev', 'wade']
   },
   {
     id: 'economic-causes', title: 'Nguyên nhân kinh tế', short: 'Công nghiệp hóa không đồng đều, ruộng đất và thiếu hụt thời chiến.',
-    content: ['Cơ cấu kinh tế mất cân đối giữa vài trung tâm công nghiệp và nông thôn rộng lớn. Chiến tranh làm tăng nhu cầu và gây thiếu hụt nhiều mặt hàng thiết yếu.'], image: archiveImages.moscowFactory, sources: ['figes', 'fitzpatrick']
+    content: ['Cơ cấu kinh tế mất cân đối giữa vài trung tâm công nghiệp và nông thôn rộng lớn. Chiến tranh làm tăng nhu cầu và gây thiếu hụt nhiều mặt hàng thiết yếu.'], sources: ['figes', 'fitzpatrick']
   },
   {
     id: 'social-causes', title: 'Nguyên nhân xã hội', short: 'Bất bình của công nhân, binh sĩ và nông dân.',
-    content: ['Công nhân đô thị, binh sĩ và nông dân là các lực lượng xã hội quan trọng trong năm 1917. Yêu sách của họ về hòa bình, ruộng đất và bánh mì được phản ánh trong các khẩu hiệu chính trị.'], image: archiveImages.nn_2, sources: ['fitzpatrick', 'wade']
+    content: ['Công nhân đô thị, binh sĩ và nông dân là các lực lượng xã hội quan trọng trong năm 1917. Yêu sách của họ về hòa bình, ruộng đất và bánh mì được phản ánh trong các khẩu hiệu chính trị.'], sources: ['fitzpatrick', 'wade']
   },
   {
     id: 'wwi-impact', title: 'Ảnh hưởng của Chiến tranh thế giới thứ nhất', short: 'Chiến tranh làm trầm trọng mọi mâu thuẫn sẵn có.',
-    content: ['Tổn thất quân sự, áp lực hậu cần và mệt mỏi chiến tranh là yếu tố xúc tác quan trọng. Nhiều sử gia coi chiến tranh là điều kiện gần như không thể thiếu cho biến động năm 1917.'], image: archiveImages.russianSoldiers, kind: 'interpretation', sources: ['figes', 'brit-russian-rev']
+    content: ['Tổn thất quân sự, áp lực hậu cần và mệt mỏi chiến tranh là yếu tố xúc tác quan trọng. Nhiều sử gia coi chiến tranh là điều kiện gần như không thể thiếu cho biến động năm 1917.'], kind: 'interpretation', sources: ['figes', 'brit-russian-rev']
   },
   {
     id: 'tsarist-crisis', title: 'Khủng hoảng của chế độ Nga hoàng', short: 'Mất uy tín và mất khả năng điều hành trong chiến tranh.',
-    content: ['Việc Nicholas II gắn mình với chỉ huy quân sự và sự mất lòng tin vào triều đình khiến nền quân chủ khó phục hồi uy tín khi khủng hoảng lên cao.'], image: archiveImages.nicholas, kind: 'interpretation', sources: ['brit-nicholas', 'figes']
+    content: ['Việc Nicholas II gắn mình với chỉ huy quân sự và sự mất lòng tin vào triều đình khiến nền quân chủ khó phục hồi uy tín khi khủng hoảng lên cao.'], kind: 'interpretation', sources: ['brit-nicholas', 'figes']
   },
   {
     id: 'revolutionary-movement', title: 'Sự phát triển của phong trào cách mạng', short: 'Các đảng, Xô viết và kinh nghiệm tổ chức từ 1905.',
-    content: ['Các đảng cánh tả, các Xô viết và kinh nghiệm 1905 tạo nền tảng tổ chức. Trong năm 1917, Bolshevik giành thêm ảnh hưởng nhờ các khẩu hiệu về hòa bình, ruộng đất và quyền lực Xô viết.'], image: archiveImages.trotsky, sources: ['rabinowitch', 'wade']
+    content: ['Các đảng cánh tả, các Xô viết và kinh nghiệm 1905 tạo nền tảng tổ chức. Trong năm 1917, Bolshevik giành thêm ảnh hưởng nhờ các khẩu hiệu về hòa bình, ruộng đất và quyền lực Xô viết.'], sources: ['rabinowitch', 'wade']
   }
 ];
 
