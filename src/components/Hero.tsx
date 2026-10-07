@@ -14,7 +14,7 @@ export function Hero() {
           </h1>
           <p className="mt-6 max-w-xl border-l-4 border-gold pl-4 font-serif text-xl italic text-cream/90">Từ một biến động cách mạng đến một bước ngoặt của lịch sử thế giới</p>
           <div className="mt-9 flex flex-wrap gap-3">
-            <Link href="/timeline" className="label bg-cream px-6 py-3.5 text-charcoal transition-colors hover:bg-gold">Khám phá dòng thời gian</Link>
+            {/* <Link href="/timeline" className="label bg-cream px-6 py-3.5 text-black transition-colors hover:bg-gold">Khám phá dòng thời gian</Link> */}
             <Link href="/vietnam" className="label border border-cream/70 px-6 py-3.5 transition-colors hover:border-gold hover:text-gold">Tìm hiểu mối liên hệ với Việt Nam</Link>
           </div>
         </div>
