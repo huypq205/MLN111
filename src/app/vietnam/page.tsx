@@ -165,7 +165,7 @@ export default function VietnamPage() {
                 </a></li>
               ))}
             </ul>
-            <p className="mt-8 font-sans text-sm text-muted">Các nội dung lý luận trong chương cần đối chiếu nguồn trước khi công bố: xem mục “[SOURCE REQUIRED]” trên trang <Link href="/sources" className="underline underline-offset-2 hover:text-burgundy">Nguồn</Link>.</p>
+            {/* <p className="mt-8 font-sans text-sm text-muted">Các nội dung lý luận trong chương cần đối chiếu nguồn trước khi công bố: xem mục “[SOURCE REQUIRED]” trên trang <Link href="/sources" className="underline underline-offset-2 hover:text-burgundy">Nguồn</Link>.</p> */}
           </Reveal>
         </section>
       </div>
